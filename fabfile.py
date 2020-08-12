@@ -27,7 +27,7 @@ env.hosts = [
 ]
 env.use_ssh_config = True
 # SSH로 접속시 필요한 개인키의 상대경로
-env.key_filename = '../kfq_busan.ppk'
+env.key_filename = '../kfq_busan.pem'
 # 리눅스에 세팅될 원격위치
 # /home/ubuntu/awsdeploy
 project_folder = '/home/{}/{}'.format(env.user, PROJECT_NAME)
